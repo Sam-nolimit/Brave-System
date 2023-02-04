@@ -48,9 +48,7 @@ const searching =
           <Form id="search-form" role="search">
             <input
               id="q"
-
-              className={searching ? "loading" : ""}
-
+              className={searching ? "loading" : "idel"}
               aria-label="Search contacts"
               placeholder="Search"
               type="search"
@@ -72,11 +70,6 @@ const searching =
               aria-live="polite"
             />
           </Form>
-
-          {/* <form method="post">
-            <button type="submit">New</button>
-          </form> */}
-
         </div>
         <nav>
 
@@ -109,17 +102,6 @@ const searching =
               <i>No contacts</i>
             </p>
           )}
-      
-
-
-          {/* <ul>
-            <li>
-              <a href="/contacts/1">Your Name</a>
-            </li>
-            <li>
-              <a href="/contacts/2">Your Friend</a>
-            </li>
-          </ul> */}
         </nav>
       </div>
       <div id="detail"

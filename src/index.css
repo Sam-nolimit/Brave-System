@@ -26,6 +26,15 @@ body {
   margin: 0;
   line-height: 1.5;
   color: #121212;
+  background-color: #fff;
+  border-radius: 800%;
+  box-shadow:
+    0 0 30px 10px rgb(11, 30, 42),  /* inner white */
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff, /* outer cyan */
+    0 0 200px 120px #c82d3a;
+
 }
 textarea,
 input,
@@ -81,7 +90,7 @@ button:active {
 }
 
 form[action$="destroy"] button {
-  color: #f44250;
+  color: #c82d3a;
 }
 
 .sr-only {
@@ -128,7 +137,7 @@ form[action$="destroy"] button {
 }
 
 #sidebar h1::before {
-  content: url("../public/ATWS_logo.png");
+  /* content: url("../public/ATWS_logo.png"); */
   margin-right: 0.5rem;
   position: relative;
   top: 1px;
