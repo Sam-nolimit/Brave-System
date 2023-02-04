@@ -27,15 +27,14 @@ body {
   line-height: 1.5;
   color: #121212;
   background-color: #fff;
-  border-radius: 800%;
+  top: calc(50% - 100px);
+  left: calc(50% - 200px);
+  border: solid 1px #fff;
   box-shadow:
-    0 0 30px 10px rgb(11, 30, 42),  /* inner white */
-    0 0 60px 30px #fff,  /* inner white */
-    0 0 100px 60px #f0f, /* middle magenta */
-    0 0 140px 90px #0ff, /* outer cyan */
-    0 0 200px 120px #c82d3a;
-
+    inset 60px 0 120px #f0f,
+    inset -60px 0 120px #0ff;
 }
+
 textarea,
 input,
 button {

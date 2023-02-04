@@ -28,7 +28,7 @@ module.exports = {
           '**/jest.config.ts', // jest config
           '**/jest.setup.ts', // jest setup
         ],
-        optionalDependencies: "",
+        optionalDependencies: "true",
       },
     ],
   },
