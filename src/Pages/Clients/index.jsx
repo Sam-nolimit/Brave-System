@@ -1,13 +1,8 @@
 export default function Index() {
   return (
-    <p id="zero-state">
-      This is a demo for React Router.
-      <br />
-      Check out{" "}
-      <a href="https://reactrouter.com">
-        the docs at reactrouter.com
-      </a>
-      .
-    </p>
+      <h2 style={{color:"sandybrown",display:"flex",flexDirection:"row",marginLeft:"300px",fontSize:"3rem",marginTop:"1px"}
+    }>
+    Dashboard
+    </h2>
   );
 }
